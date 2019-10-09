@@ -1,1 +1,47 @@
-/* Enter your Styles below! */
+body{font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+
+h1{font-family: kepler-std-condensed-display, serif;
+font-style: normal;
+font-weight: 600;
+font-size: 60px;}
+
+
+h2{font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25 px;}
+
+
+
+
+
+
+
+
+
+h1{ color: white}
+h1 { text-align: center;
+padding: 50px;}
+
+
+h2{ color: white}
+h2 { text-align: center;
+padding: 550px;}
+
+nav ul {
+lis-style-type:none;}
+min-height:100px;
+min-width: 500px;
+}
+
+
+nav li { 
+display: inline-block;
+margin-right: 40px;
+margin-top:40px; 
+padding 16px;
+}
