@@ -1,3 +1,19 @@
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb( 227,120,70);
+  margin: 5px 0;
+  aligh="right"
+  
+}
+
+
+
 body{font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -18,11 +34,6 @@ font-size: 25 px;}
 
 
 
-
-
-
-
-
 h1{ color: white}
 h1 { text-align: center;
 padding: 50px;}
@@ -32,16 +43,8 @@ h2{ color: white}
 h2 { text-align: center;
 padding: 550px;}
 
-nav ul {
-lis-style-type:none;}
-min-height:100px;
-min-width: 500px;
-}
 
 
-nav li { 
-display: inline-block;
-margin-right: 40px;
-margin-top:40px; 
-padding 16px;
-}
+
+
+
