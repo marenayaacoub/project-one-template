@@ -1,6 +1,6 @@
 
-h1{ color: rgb( 227,120,70);}
-p{color: white}
+
+
 
 
 
@@ -86,11 +86,16 @@ p{color: white}
 
 
 
+h1{font-family: kepler-std-condensed-display, serif;
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+color: rgb( 227,120,70);}
 
-
-body{font-family: 'Raleway', sans-serif;
+p{font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 400;
+color: white;
 }
 
 

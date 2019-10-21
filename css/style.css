@@ -7,9 +7,7 @@
   width: 35px;
   height: 5px;
   background-color: rgb( 227,120,70);
-  margin: 5px 0;
-  aligh="right"
-  
+  margin: 5px 0;  
 }
 
 
@@ -17,10 +15,18 @@
 body{font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 400;
+background-color: rgb( 227,120,70);
+}
+.wrapper {
+	background-color:rgb( 26,31,35);
+	width: 70%;
+	margin:0 auto;
 }
 
-
-h1{font-family: kepler-std-condensed-display, serif;
+.homepage h1 {color: white;}
+.homepage {background-color:rgb( 26,31,35);}
+h1
+{font-family: kepler-std-condensed-display, serif;
 font-style: normal;
 font-weight: 600;
 font-size: 60px;}
@@ -31,7 +37,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 25 px;}
 
-
+p{display:inline-block;
+width:35%;}
 
 
 h1{ color: white}
@@ -43,8 +50,122 @@ h2{ color: white}
 h2 { text-align: center;
 padding: 550px;}
 
+.hamburger {
+	float: right;
+	margin-right: 20px;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+h1{font-family: kepler-std-condensed-display, serif;
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+color: rgb( 227,120,70);}
+
+p{font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 16;
+color: white;
+}
+
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+
+}
 
 
 
 
 
+
+<style>
+		.dotnav {margin: 50px auto;width: 80%;}
+		.dotnav ul { 
+			list-style-type: none;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			 }
+		.dotnav li { 
+			background-color: rgb( 227,120,70);
+			height: 20px;
+			width: 20px;
+			border-radius: 50%;
+			margin: auto;
+			 }
+		.dotnav li:hover { background-color: rgb( 26,31,35); }
+	</style>
