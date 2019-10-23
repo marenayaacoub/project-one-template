@@ -148,12 +148,6 @@ color: white;
 
 }
 
-
-
-
-
-
-<style>
 		.dotnav {margin: 50px auto;width: 80%;}
 		.dotnav ul { 
 			list-style-type: none;
@@ -168,4 +162,24 @@ color: white;
 			margin: auto;
 			 }
 		.dotnav li:hover { background-color: rgb( 26,31,35); }
-	</style>
+	
+
+
+
+
+  
+ 
+
+
+
+
+
+
+
+
+
+	@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
