@@ -11,7 +11,6 @@
 }
 
 
-
 body{font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -21,6 +20,7 @@ background-color: rgb( 227,120,70);
 	background-color:rgb( 26,31,35);
 	width: 70%;
 	margin:0 auto;
+	height: 800px
 }
 
 .homepage h1 {color: white;}
@@ -29,17 +29,24 @@ h1
 {font-family: kepler-std-condensed-display, serif;
 font-style: normal;
 font-weight: 600;
-font-size: 60px;}
+font-size: 60px;
+padding: 30px;}
 
 
 h2{font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 25 px;}
+font-size: 100 px;}
 
 p{display:inline-block;
-width:35%;}
+width:35%;
+height: 20px
+text-align: left; padding: 50px;">
 
+}
+
+h3{color:white;
+text-align: top-right;}
 
 h1{ color: white}
 h1 { text-align: center;
@@ -48,17 +55,16 @@ padding: 50px;}
 
 h2{ color: white}
 h2 { text-align: center;
-padding: 550px;}
+padding: 20px;}
 
 .hamburger {
 	float: right;
 	margin-right: 20px;
 }
 
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+#myImg { position:absolute;
+  right:300px;
+  bottom:50px;
 }
 
 #myImg:hover {opacity: 0.7;}
